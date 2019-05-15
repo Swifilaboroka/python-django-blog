@@ -28,7 +28,7 @@ def home(request):
     #return HttpResponse('<h1>Blog Home</h1>')
     context = {
         #'posts' : posts
-        'posts' : posts.objects.all()
+        'posts' : Posts.objects.all()
     }
     return render(request, 'blog/home.html', context)
 

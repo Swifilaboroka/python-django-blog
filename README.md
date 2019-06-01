@@ -21,3 +21,13 @@ Django takes security seriously and helps developers avoid many common security 
 
 Exceedingly scalable.
 Some of the busiest sites on the Web leverage Django’s ability to quickly and flexibly scale.
+
+# To run the server
+
+python manage.py runserver
+
+# To migrate 
+python3 manage.py migrate or python manage.py migrate
+
+# To create a Super User
+python3 manage.py createsuperuser

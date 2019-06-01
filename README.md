@@ -31,3 +31,7 @@ python3 manage.py migrate or python manage.py migrate
 
 # To create a Super User
 python3 manage.py createsuperuser
+
+# To create an application within our project
+
+python3 manage.py startapp languages

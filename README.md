@@ -22,6 +22,17 @@ Django takes security seriously and helps developers avoid many common security 
 Exceedingly scalable.
 Some of the busiest sites on the Web leverage Django’s ability to quickly and flexibly scale.
 
+# Django Installation
+# 1. Install Python Server Virtual Environnment
+ pip install virtualenvwrapper-win
+
+# 2. create a folder for the virtualenv
+mkvirtualenwrapper-win
+# start django installation
+pip install django 
+# activate the environnement
+workon myenv(example)
+
 # To run the server
 
 python manage.py runserver

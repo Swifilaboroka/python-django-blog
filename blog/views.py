@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Post   
-# Create your views here.
+# Here we are creating the view
 posts = [
     {
         'author' : 'Mark',
@@ -10,10 +10,10 @@ posts = [
         'date_posted' : 'Auguest 27, 2018'
     },
     {
-        'author' : 'Wembo Mulumba Otepa',
+        'author' : 'Wembo Mulumba ',
         'title'  : 'Artificial Intelligence',
         'content': 'with Django so you can develop things rapidly, without having to deal with configuring a production server',
-        'date_posted' : 'December 21, 2018'
+        'date_posted' : 'December 29, 2018'
     },
 
     {
